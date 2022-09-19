@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+    >
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="START GAME"
+        android:layout_below="@id/btnRules" />
+
+    <Button
+        android:id="@+id/btnRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#2196F3"
+        android:layout_below="@id/btnSave"
+        android:text="SHOW GAME RULES" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#2196F3"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        android:layout_below="@id/editTextNumber2"
+        android:text="SAVE CHANGES"/>
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber3"
+        android:layout_marginTop="30dp"
+        android:background="@color/cardview_light_background"
+        android:hint="Enter the minimum number you want to be shown"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editTextNumber4"
+        android:background="@color/cardview_light_background"
+        android:hint="enter the max number you want to be show"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:hint="enter how many numbers you want to be displayed"
+        android:inputType="number" />
+
+
+
+</RelativeLayout>
