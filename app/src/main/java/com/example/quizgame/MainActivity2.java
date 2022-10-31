@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        btn = (Button) findViewById(R.id.button10);
+        btn = findViewById(R.id.button10);
         txt = findViewById(R.id.textRules);
 
         txt.setText("WE WILL WRITE THE GAME RULES HERE");
@@ -31,14 +31,13 @@ public class MainActivity2 extends AppCompatActivity {
                 "FIRST SECTION: The number of numbers which will be display on the screen\n" +
                 "SECOND SECTION: Max number which will be display on the screen\n" +
                 "THIRD SECTION: Min number which will be display on the screen\n" +
-                "SAVE BUTTON: when you click it, settings will be saved and game will start\n" +
                 "SHOW RULES BUTTON: you already know what it is for :D\n" +
-                "START BUTTON: Opens the game with default settings\n" +
-                "" +
-                "" +
-                "" +
-                "" +
-                "" +
+                "START BUTTON: Opens the game\n" +
+                "YOU'RE FREE TO NOT SET GAME SETTINGS, IN THIS CASE THE GAME WILL START WITH DEFAULT" +
+                "DEFAULT SETTINGS: " +
+                "FIRST SECTION = 10" +
+                "SECOND SECTION = 10" +
+                "THIRD SECTION = 0" +
                 "");
 
 
