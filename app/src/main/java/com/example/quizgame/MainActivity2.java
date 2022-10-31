@@ -34,7 +34,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "SHOW RULES BUTTON: you already know what it is for :D\n" +
                 "START BUTTON: Opens the game\n" +
                 "YOU'RE FREE TO NOT SET GAME SETTINGS, IN THIS CASE THE GAME WILL START WITH DEFAULT" +
-                "DEFAULT SETTINGS: " +
+                "DEFAULT SETTINGS:  " +
                 "FIRST SECTION = 10" +
                 "SECOND SECTION = 10" +
                 "THIRD SECTION = 0" +
